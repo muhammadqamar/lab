@@ -2,21 +2,30 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-      colors: {
-
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-      'midnight': '#121063',
-      'metal': '#565584',
-      'tahiti': '#3ab7bf',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
-      'primary':'#000',
-
+    colors: {
+      primary: "#605DAF",
+      secondary: "#F5F5F5",
+      white: "#FFFFFF",
+      black: "#000000",
+      textColor: "#595959",
+      paginationlabelColor: "#454545",
+      blueColor: "#3D88E0",
+      placeholderColor: "#989898",
+      mainheadingColor: "#2C2C2C",
+      subheadingColor: "#232323",
+      tableOrangeColor: "#FF7A00",
+      tableredColor: "#FF0008",
+      tablegreenColor: "#32AD4C",
+      AlertColor: "#38C280",
+      labelstarColor: "#F20000",
+      bglowgrey: "#ECECEC",
+      tabColor: "#999999",
+      tabSelectColor: "#52B6DF",
+      bgActionDots: "#F1F5F7",
+      menuheadingColor: "#101828",
     },
 
     extend: {},
   },
   plugins: [],
-}
+};
